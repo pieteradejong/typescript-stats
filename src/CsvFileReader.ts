@@ -1,6 +1,6 @@
 import fs from 'fs';
 
-export abstract class CsvFileReader<T> {
+export class CsvFileReader {
     data: string[][] = [];
     public filename: string;
 

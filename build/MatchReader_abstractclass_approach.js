@@ -1,9 +1,8 @@
+"use strict";
 // import { CsvFileReader } from "./CsvFileReader";
 // import { dateStringToDate } from "./utils";
 // import { MatchResult } from "./MatchResult";
-
 // export type MatchData = [Date, string, string, number, number, MatchResult, string];
-
 // export class MatchReader extends CsvFileReader<MatchData> {
 //     mapRow(row: string[]) : MatchData {
 //         return [
@@ -15,6 +14,5 @@
 //             row[5] as MatchResult,
 //             row[6]
 //         ];
-
 //     }
 // }
